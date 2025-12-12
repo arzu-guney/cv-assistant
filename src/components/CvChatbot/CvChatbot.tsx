@@ -4,9 +4,6 @@ import { Message, QuickAction } from '../../types/chat'
 import { CvData } from '../../types/cv'
 import { sendChatMessage } from '../../lib/openai'
 import ChatWindow from './ChatWindow'
-import MessageList from './MessageList'
-import MessageInput from './MessageInput'
-import QuickActions from './QuickActions'
 
 interface CvChatbotProps {
   cvData: CvData

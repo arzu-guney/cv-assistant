@@ -30,8 +30,7 @@ export default function ChatWindow({
   onQuickAction,
   onSendMessage,
   placeholder,
-  messagesEndRef,
-  isDemoMode = false,
+  messagesEndRef, 
 }: ChatWindowProps) {
   return (
     <div className="fixed bottom-6 right-6 z-50 w-[90vw] max-w-md h-[600px] max-h-[80vh] bg-slate-900 rounded-lg shadow-2xl flex flex-col border border-slate-800">
